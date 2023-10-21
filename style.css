@@ -18,18 +18,24 @@ body{
 }
 
 .main-container{
-    background-color: aqua;
+    /* background-color: aqua;
     width: 250px;
     height: 250px;
     display: flex;
-    /* justify-content: space-evenly; */
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
 }
 
 .box{
     background-color: rgb(72, 203, 255);
-    width: 83px;
-    height: 83px;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 83px;
+    height: 83px; */
     /* margin: 5px; */
     
 }
