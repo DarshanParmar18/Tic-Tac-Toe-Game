@@ -2,34 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <title>Tic Tac Toe</title>
 </head>
 <body>
-    
-    <div class="game">
-        <div class="main-container">
-            <div class="box box1 bt-0 bl-0"><span class="boxtext">X</span></div>
-            <div class="box box2 bt-0"><span class="boxtext">X</span></div>
-            <div class="box box3 bt-0 br-0"><span class="boxtext">X</span></div>
-            <div class="box box4 bl-0"><span class="boxtext">X</span></div>
-            <div class="box box5"><span class="boxtext">X</span></div>
-            <div class="box box6 br-0"><span class="boxtext">X</span></div>
-            <div class="box box7 bl-0 bb-0"><span class="boxtext">X</span></div>
-            <div class="box box8 bb-0"><span class="boxtext">X</span></div>
-            <div class="box box9 bb-0 br-0"><span class="boxtext">X</span></div>
-        </div>
-        <div class="info-container">
-            <h1>Welcome to tic tac toe game</h1>
-            <div>
-                <span class="info"></span>
-                <button id="reset">Reset</button>
+      <nav class="navbar">
+        <span class="yellow">Tic Tac Toe</span>
+    </nav>
+          <div class="gamecontainer">
+              <div class="container">
+              <div class="line"></div>
+              <div class="tile"><span class="boxtext"></span></div>
+              <div class="tile"><span class="boxtext"></span></div>
+              <div class="tile"><span class="boxtext"></span></div>
+              <div class="tile"><span class="boxtext"></span></div>
+              <div class="tile"><span class="boxtext"></span></div>
+              <div class="tile"><span class="boxtext"></span></div>
+              <div class="tile"><span class="boxtext"></span></div>
+              <div class="tile"><span class="boxtext"></span></div>
+              <div class="tile"><span class="boxtext"></span></div>
             </div>
-
+            <div class="gameinfo">
+              <h1>Tic Tac Toe</h1>
+              <div class="controls">
+                <span class="info">Turn for X</span>
+                  <button id="reset">Reset</button>
+              </div>
+              <div class="image">
+                <img src="excited.gif" alt="excited.gif">
+              </div>
+            </div>
+           
         </div>
-    </div>
-
-    <script src="/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
